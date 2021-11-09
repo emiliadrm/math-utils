@@ -13,8 +13,13 @@ function multiplicacion(a, b) {
     return a * b
 }
 
+function division(a, b) {
+    console.log("DIVISION", a / b)
+    return a / b
+}
 
 suma(12, 25);
 resta(30, 8);
 multiplicacion(12, 5);
+division(50,10);
 
