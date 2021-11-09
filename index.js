@@ -8,5 +8,13 @@ function resta(a, b) {
     return a - b
 }
 
+function multiplicacion(a, b) {
+    console.log("MULTIPLICACION", a * b)
+    return a * b
+}
+
+
 suma(12, 25);
 resta(30, 8);
+multiplicacion(12, 5);
+
