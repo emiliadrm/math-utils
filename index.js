@@ -23,3 +23,12 @@ resta(30, 8);
 multiplicacion(12, 5);
 division(50,10);
 
+
+// Nueva función que muestra cual numero es menor
+function menorQue(a, b) {
+    if( a > b) {
+        return `${b} es MENOR que ${a}`
+    } else {
+        return `${a} es MENOR que ${b}`
+    }
+}
